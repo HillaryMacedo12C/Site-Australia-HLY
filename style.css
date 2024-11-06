@@ -8,16 +8,12 @@ html {
     font-size: 16px;
 }
 
-body {
+ header {
     font-family: Arial, sans-serif;
-    color: white;
-    background-color: #000;
-}
-
-header {
+    color: #fff;
     position: relative;
     height: 100vh;
-    background: url('./assets/logo_HLY-removebg-preview.png') no-repeat center center/cover;
+    background: url('./assets/foto\ capa\ site.jpg') no-repeat center center/cover;
 }
 
 nav {
@@ -68,14 +64,14 @@ nav ul li a {
     font-family: "Black Han Sans", sans-serif;
 }
 
-.h2 {
+h2 {
     margin-top: 10rem;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
 
-.p {
+p {
     font-size: 1.125rem;
     margin-top: 1rem;
     max-width: 37.5rem;
@@ -83,10 +79,127 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
-header {
+
+.avaliacao {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
     position: relative;
-    height: 100vh;
-    background: url('./assets/foto\ capa\ site.jpg') no-repeat center center/cover;
+    height: 40vh;
+    background: url('./assets/canguru.jpg') no-repeat center center/cover;
 }
 
+.avaliacao h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.h2 {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #8a050e;
+    font-size: 4rem;
+    margin-top: -8rem;
+
+}
+.container2 {
+    width: 90%;
+    max-width: 50rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    color: #800000;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.jrmr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 200%;
+}
+
+.jose-ricardo {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+
+.mariana-rios {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+
+.jose-ricardo img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.5rem;s
+    border: 0.125rem solid #e0e0e0;
+}
+
+.mariana-rios img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.5rem;
+    border: 0.125rem solid #e0e0e0;
+}
+
+.jose-ricardo .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.mariana-rios .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+
+.stars {
+    color: #FFD700;
+    font-size: 3rem;
+}
+
+.jose-ricardo .av {
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+}
+
+.mariana-rios .av {
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    
+}
+
+.aspas {
+    color: #8a050e;
+    font-size: 7rem;
+  
+}
   
