@@ -100,6 +100,16 @@ p {
     
 }
 
+.h1 {
+    display: flex;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+}
+
+.h1 .titulo {
+    font-size: 4rem;
+}
+
 .h2 {
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -120,7 +130,7 @@ p {
 
 .titulo {
     font-size: 1.5rem;
-    color: #800000;
+    color: #8a050e;
     font-weight: bold;
     margin-bottom: 1.25rem;
 }
@@ -185,14 +195,16 @@ p {
 }
 
 .jose-ricardo .av {
+    margin-top: -2.5rem;
     font-size: 1rem;
-    color: #000;
+    color: #0d203b;
     text-align: center;
 }
 
 .mariana-rios .av {
+    margin-top: -2.5rem;
     font-size: 1rem;
-    color: #000;
+    color: #0d203b;
     text-align: center;
     
 }
@@ -202,4 +214,105 @@ p {
     font-size: 7rem;
   
 }
+
+hr {
+    border: none;
+    height: 0.15rem;
+    background-color: #0D203B;
+}
+
+.pagina-final {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+    position: relative;
+    height: 50vh;
+    background: url('./assets/coala.jpg') no-repeat center center/cover;
+}
+
+.pergunta {
+    margin-top: -2rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 2.7rem;
+}
+ .agradecimento {
+    background-color: #8a050e;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+ }
+
+.agradecemos {
+    font-family: "Black Han Sans", sans-serif;
+    color: #fff;
+    font-size: 2.8rem;
+}
+
+.encerramento {
+    display: flex;
+    
+}
+
+  .contato-texto {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .contato-texto p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #1A1A1A;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .hours {
+    font-weight: bold;
+    color: #A10000;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  .contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .perfis {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .perfis p {
+    font-size: 1rem;
+    color: #1A1A1A;
+    margin-bottom: 0.5rem;
+  }
+  
+  .perfis img {
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: -0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .social {
+    color: #1A1A1A;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .website {
+    color: #8a050e;
+    font-size: 1rem;
+  }
+ 
+  .horarios  {
+    color: #8a050e;
+  }
   
