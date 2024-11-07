@@ -18,9 +18,6 @@ main {
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
 
  header {
     font-family: Arial, sans-serif;
@@ -55,6 +52,7 @@ nav ul li a {
     font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
 }
+
 .container {
     display: flex;
     justify-content: flex-start;
@@ -177,15 +175,13 @@ p {
 .jose-ricardo img {
     width: 8rem;
     height: 8rem;
-    border-radius: 1.5rem;s
-    border: 0.125rem solid #fff;
+    border-radius: 1.5rem;
 }
 
 .mariana-rios img {
     width: 8rem;
     height: 8rem;
     border-radius: 1.5rem;
-    border: 0.125rem solid #fff;
 }
 
 .jose-ricardo .name {
