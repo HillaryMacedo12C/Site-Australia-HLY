@@ -8,6 +8,7 @@
 body {
     padding: 20px;
     background-color: #f4f4f4;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -50,11 +51,150 @@ h1 {
     margin-top: 2rem;
 }
 
-h2 {
-    font-family: "Montserrat", sans-serif;
-}
-
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    margin-left: 50rem;
+    margin-right: 2rem;
+    margin-top: -30rem;
+}
+
+.card1 {
+padding-right: 1rem;
+}
+
+.card2 {
+    padding-left: 2rem;
+    }
+
+.card-content1 {
+    background-color: #8a050e;
+    border-radius: 0.5rem;
+    padding: 1.4rem;
+    text-align: center;
+    color: #fff;
+    width: 19.1rem;
+    margin-top: -2rem;
+    margin-right: 1rem;
+}
+
+.card-content2 {
+    background-color: #0d203b;
+    border-radius: 0.5rem;
+    padding: 1.1rem;
+    text-align: center;
+    color: #fff;
+    width: 18.7rem;
+    margin-top: -2rem;
+}
+
+
+.card1 img {
+  height: 28rem;
+  padding-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+
+.card2 img {
+  height: 28rem;
+  padding-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+
+.card1 h3 {
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.card2 h3 {
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.card1 p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.card2 p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.conteudo {
+    margin-right: 45rem;
+}
+
+.texto p {
+    font-size: 1.35rem;
+    margin-bottom: 2rem;
+}
+
+.texto {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+span {
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: -7rem;
+}
+
+.rating h2 {
+    font-size: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nota {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;s
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    background-color: #f4f4f4;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #f4f4f4;
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
 }

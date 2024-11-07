@@ -62,7 +62,7 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
     color: #0d203b;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 0.75rem;
     margin-top: 0.75rem;
  }
@@ -73,12 +73,34 @@ nav ul li a {
     font-weight: 700;
  }
 
-.cultura-detalhes img {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-}
-
 .cidade-australia img {
     width: 37rem;
+    border-radius: 0.20rem;
+}
+
+.cultura1 {
+    margin-bottom: 4rem;
+}
+
+.cultura2 {
+    margin-bottom: 4rem;
+}
+
+.cultura3 {
+    margin-bottom: 4rem;
+}
+
+.cultura-detalhes {
+    margin-right: 40rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+ .cidade-australia {
+    display: flex;
+    justify-content: right;
+    margin-left: 55.15rem;
+    margin-top: -32.2rem;
+    height: 32.2rem;
+    width: 34rem;
 }
