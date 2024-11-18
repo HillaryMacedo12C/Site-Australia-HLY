@@ -72,7 +72,7 @@
     }
     
     .container h1 {
-        font-size: 4rem;
+        font-size: 10rem;
         margin-top: 3rem;
     }
     
@@ -210,14 +210,14 @@ nav ul li a {
 }
 
 .container h1 {
-    font-size: 8.5rem;
+    font-size: 12rem;
     font-weight: bold;
-    margin-top: 4.90rem;
+    margin-top: 8rem;
     font-family: "Black Han Sans", sans-serif;
 }
 
 h2 {
-    margin-top: 10rem;
+    margin-top: 18rem;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -268,7 +268,7 @@ p {
     justify-content: center;
     color: #8a050e;
     font-size: 4rem;
-    margin-top: -8rem;
+    margin-top: -12rem;
 
 }
 .container2 {
@@ -292,6 +292,8 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 200%;
+    margin-left: 9rem;
+    margin-bottom: 4rem;
 }
 
 .jose-ricardo {
